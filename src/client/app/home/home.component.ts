@@ -1,56 +1,44 @@
 import { Component, OnInit } from '@angular/core';
-import { NameListService } from '../shared/name-list/name-list.service';
+import { SocialLinksService } from '../shared/social-links/social-links.service';
 
 /**
  * This class represents the lazy loaded HomeComponent.
  */
 @Component({
   moduleId: module.id,
-  selector: 'sd-home',
+  selector: 'ds-home',
   templateUrl: 'home.component.html',
   styleUrls: ['home.component.css'],
 })
 export class HomeComponent implements OnInit {
 
-  newName: string = '';
   errorMessage: string;
-  names: any[] = [];
+  socialLinks: any[] = [];
 
   /**
    * Creates an instance of the HomeComponent with the injected
-   * NameListService.
+   * SocialLinksService.
    *
-   * @param {NameListService} nameListService - The injected NameListService.
+   * @param {SocialLinksService} socialLinksService - The injected SocialLinksService.
    */
-  constructor(public nameListService: NameListService) {}
+  constructor(public socialLinksService: SocialLinksService) {}
 
   /**
    * Get the names OnInit
    */
   ngOnInit() {
-    this.getNames();
+    this.getSocialLinks();
   }
 
   /**
-   * Handle the nameListService observable
+   * Handle the socialLinksService observable
    */
-  getNames() {
-    this.nameListService.get()
+  getSocialLinks() {
+    this.socialLinksService.get()
       .subscribe(
-        names => this.names = names,
+        socialLinks => this.socialLinks = socialLinks,
         error => this.errorMessage = <any>error
       );
-  }
-
-  /**
-   * Pushes a new name onto the names array
-   * @return {boolean} false to prevent default form submit behavior to refresh the page.
-   */
-  addName(): boolean {
-    // TODO: implement nameListService.post
-    this.names.push(this.newName);
-    this.newName = '';
-    return false;
   }
 
 }

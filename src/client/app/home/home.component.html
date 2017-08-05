@@ -1,10 +1,16 @@
-<p>Howdy! Here's a list of awesome computer scientists. Do you know any others? Add to the list yourself.</p>
+<section class="ds-c-home__intro-text">
+  <p i18n="home-intro">
+    Software Engineer at <a href="https://nothing.ch" target="_blank">Nothing Interactive</a><br>
+    <a href="https://tchoukball.ch" target="_blank">Swiss Tchoukball</a> executive<br>
+    <a href="https://epfl.ch" target="_blank">EPFL</a> Alumnus (IN '16)<br>
+    Amateur photographer
+  </p>
+</section>
 
-<form (submit)="addName()">
-  <input [(ngModel)]="newName" name="newName" placeholder="Awesome Computer Scientist">
-  <button type="submit">Add</button>
-</form>
-
-<ul>
-  <li *ngFor="let name of names">{{ name }}</li>
-</ul>
+<section class="ds-c-home__social-icons">
+  <a *ngFor="let socialLink of socialLinks" href="{{socialLink.url}}" class="ds-c-home__social-icon">
+    <img src="/assets/icons/{{ socialLink.name }}.png"
+         alt="logo of {{ socialLink.name }}"
+         srcset="/assets/icons/{{ socialLink.name }}@2x.png 2x"/>
+  </a>
+</section>
