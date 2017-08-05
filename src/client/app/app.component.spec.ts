@@ -15,6 +15,7 @@ import {
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { LinksComponent } from './links/links.component';
 import { ToolbarComponent } from './shared/toolbar/toolbar.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 
@@ -31,7 +32,7 @@ export function main() {
         imports: [FormsModule, RouterTestingModule.withRoutes(config)],
         declarations: [TestComponent, ToolbarComponent,
           NavbarComponent, AppComponent,
-          HomeComponent, AboutMeComponent],
+          HomeComponent, AboutMeComponent, LinksComponent],
         providers: [
           { provide: APP_BASE_HREF, useValue: '/' }
         ]
@@ -54,7 +55,7 @@ export function main() {
 
 @Component({
   selector: 'test-cmp',
-  template: '<sd-app></sd-app>'
+  template: '<ds-app></ds-app>'
 })
 
 class TestComponent {

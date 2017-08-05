@@ -1,0 +1,146 @@
+[
+  {
+    "label": {
+      "fr": "Mon amour",
+      "en": "My love"
+    },
+    "name": "Caroline González",
+    "url": "http://flavors.me/carogonzo"
+  },
+  {
+    "label": {
+      "fr": "Ma famille",
+      "en": "My family"
+    },
+    "name": "Sine Dolo",
+    "url": "http://sinedolo.ch"
+  },
+  {
+    "label": {
+      "fr": "Mon père",
+      "en": "My father"
+    },
+    "name": "Pascal Sandoz",
+    "url": "http://pascal.sinedolo.ch"
+  },
+  {
+    "label": {
+      "fr": "Mon école",
+      "en": "My university"
+    },
+    "name": "Ecole Polytechnique Fédérale de Lausanne",
+    "url": "http://epfl.ch/"
+  },
+  {
+    "label": {
+      "fr": "Ma fusée",
+      "en": "My rocket"
+    },
+    "name": "Nothing Interactive",
+    "url": "http://nothing.ch"
+  },
+  {
+    "label": {
+      "fr": "Ma fédération",
+      "en": "My federation"
+    },
+    "name": "Swiss Tchoukball",
+    "url": "http://tchoukball.ch/"
+  },
+  {
+    "label": {
+      "fr": "Mon club",
+      "en": "My club"
+    },
+    "name": "Tchoukball Club Bern",
+    "url": "http://tcbern.ch"
+  },
+  {
+    "label": {
+      "fr": "Mes anciens clubs",
+      "en": "My previous clubs"
+    },
+    "name": "Tchoukball Club La Chaux-de-Fonds",
+    "url": "http://tbcc.ch"
+  },
+  {
+    "label": {
+      "fr": "",
+      "en": ""
+    },
+    "name": "Nyon Tchoukball Club",
+    "url": "http://ntbc.ch/"
+  },
+  {
+    "label": {
+      "fr": "Mes amis",
+      "en": "My friends"
+    },
+    "name": "Lorain Freléchoux",
+    "url": "http://frelechoux.ch"
+  },
+  {
+    "label": {
+      "fr": "",
+      "en": ""
+    },
+    "name": "Nathanaël Khodl",
+    "url": "http://nathanael.khodl.ch/"
+  },
+  {
+    "label": {
+      "fr": "",
+      "en": ""
+    },
+    "name": "Quentin Mazars-Simon",
+    "url": "http://quentin.ms/"
+  },
+  {
+    "label": {
+      "fr": "",
+      "en": ""
+    },
+    "name": "Aubry Cholleton",
+    "url": "http://cholleton.ch"
+  },
+  {
+    "label": {
+      "fr": "",
+      "en": ""
+    },
+    "name": "Solène Buet",
+    "url": "http://solenebuet.com"
+  },
+  {
+    "label": {
+      "fr": "",
+      "en": ""
+    },
+    "name": "Christopher Chiche",
+    "url": "http://christopherchiche.com"
+  },
+  {
+    "label": {
+      "fr": "",
+      "en": ""
+    },
+    "name": "Benjamin D'Incau",
+    "url": "http://benjamindincau.com/"
+  },
+  {
+    "label": {
+      "fr": "",
+      "en": ""
+    },
+    "name": "Laurent Ludi",
+    "url": "http://ardeattitude.ch/"
+  },
+  {
+    "label": {
+      "fr": "",
+      "en": ""
+    },
+    "name": "Empreintes photographie",
+    "url": "http://empreintesphotographie.ch"
+  }
+]

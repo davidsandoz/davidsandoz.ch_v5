@@ -1,0 +1,6 @@
+<section>
+  <div *ngFor="let link of links">
+    <div>{{link.label[currentLanguage]}}</div>
+    <a href="{{link.url}}">{{link.name}}</a>
+  </div>
+</section>
