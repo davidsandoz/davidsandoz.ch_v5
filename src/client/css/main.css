@@ -78,3 +78,7 @@ a {
   color: var(--orange);
   text-decoration: none;
 }
+
+.icon {
+  fill: white;
+}

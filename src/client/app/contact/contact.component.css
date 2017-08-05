@@ -1,0 +1,23 @@
+
+.contactItem {
+  width: 260px;
+  margin: auto;
+}
+
+.contactItem > * {
+  vertical-align: top;
+}
+
+.typeContact {
+  display: inline-block;
+  width: 24px;
+  padding-top: 4px;
+  margin-right: 4px;
+}
+
+.contenuContact{
+  display: inline-block;
+  padding-top: 2px;
+  padding-bottom: 13px;
+  font-size: 16px;
+}
