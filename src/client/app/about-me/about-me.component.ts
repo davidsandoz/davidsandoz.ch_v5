@@ -1,4 +1,5 @@
-import {Component, AfterViewInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {LangSwitcherService} from "../shared/lang-switcher/lang-switcher.service";
 
 /**
  * This class represents the lazy loaded AboutMeComponent.
@@ -6,13 +7,14 @@ import {Component, AfterViewInit} from '@angular/core';
 @Component({
   moduleId: module.id,
   selector: 'ds-about',
-  templateUrl: 'about.component.html',
-  styleUrls: ['about.component.css']
+  templateUrl: 'about-me.component.html',
+  styleUrls: ['about-me.component.css']
 })
-export class AboutMeComponent implements AfterViewInit {
-  public currentLanguage: string = 'en';
+export class AboutMeComponent implements OnInit {
+  public currentLanguage: string;
 
-  ngAfterViewInit() {
-    this.currentLanguage = (<any>window).document.documentElement.lang;
+  ngOnInit() {
+    this.currentLanguage = LangSwitcherService.getLang();
+    console.log(this.currentLanguage);
   }
 }

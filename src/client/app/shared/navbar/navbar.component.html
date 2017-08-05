@@ -1,4 +1,7 @@
 <nav>
   <a [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">Home</a>
   <a [routerLink]="['/about-me']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">About me</a>
+  <a [routerLink]="['/links']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">Links</a>
+  <a (click)="selectLocale('fr-CH')" *ngIf="locale !== 'fr-CH'">Français</a>
+  <a (click)="selectLocale('en-US')" *ngIf="locale !== 'en-US'">English</a>
 </nav>
