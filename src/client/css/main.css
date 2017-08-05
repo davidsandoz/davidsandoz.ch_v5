@@ -76,4 +76,5 @@ button:hover {
 
 a {
   color: var(--orange);
+  text-decoration: none;
 }

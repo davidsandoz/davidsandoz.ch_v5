@@ -13,7 +13,6 @@ ul {
 }
 
 .ds-c-home__intro-text {
-  color: white;
   text-align: center;
 }
 
@@ -24,8 +23,4 @@ ul {
 .ds-c-home__social-icon {
   display: inline-block;
   margin: 0.7em;
-}
-
-a.ds-c-home__social-icon {
-  text-decoration: none;
 }
