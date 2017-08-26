@@ -8,7 +8,7 @@ export class TranslationProviders {
     // Define a way to retrieve the local information
     let locale: string;
     try {
-      locale = localStorage.getItem('lang') || 'en-US';
+      locale = localStorage.getItem('locale') || 'en-US';
     } catch (e) {
       // Handle any errors (e.g. "SecurityError: The operation is insecure." if client blocks cookies.)
       locale = 'en-US';
