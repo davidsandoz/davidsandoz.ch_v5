@@ -1,5 +1,7 @@
 :root {
-  --orange: #ff9900;
+  --orange: rgb(255, 153, 0);
+  --dark-orange: rgb(255, 102, 0);
+  --transparent-orange: rgba(255, 153, 0, 0.1);
 }
 
 /* Reset */
@@ -17,6 +19,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: var(--transparent-orange);
 }
 
 /* Box-sizing border-box */
@@ -26,18 +29,27 @@ body {
 
 /* Set up a default font and some padding to provide breathing room */
 body {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  font-size: 16px;
+  font-family: 'Lato', HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 p {
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.01em;
-  line-height: 20px;
+  font-size: 1.1em;
+  line-height: 1.3em;
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+p a {
+  font-weight: 400;
+}
+
+p strong a {
+  font-weight: bold;
 }
 
 ul {
@@ -79,6 +91,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--dark-orange);
+}
+
 .icon {
-  fill: white;
+  fill: black;
+}
+
+@media (max-width: 700px) {
+  body {
+    background-color: white;
+  }
 }
