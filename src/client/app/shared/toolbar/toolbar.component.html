@@ -1,2 +1,8 @@
-<h1>Angular Seed</h1>
-<div class="more"></div>
+<h1>David Sandoz</h1>
+<div class="ds-cover-image ds-cover-image--{{currentPageSlug}}"></div>
+<div class="ds-side-gradient-cover"></div>
+<div class="ds-name-cover"></div>
+<div class="ds-lang-switcher">
+  <a (click)="selectLocale('fr-CH')" *ngIf="locale !== 'fr-CH'">FR</a>
+  <a (click)="selectLocale('en-US')" *ngIf="locale !== 'en-US'">EN</a>
+</div>
