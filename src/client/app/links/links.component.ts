@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { LinksService } from './links.service';
-import {LangSwitcherService} from "../shared/lang-switcher/lang-switcher.service";
+import { LangSwitcherService } from '../shared/lang-switcher/lang-switcher.service';
 
 /**
  * This class represents the lazy loaded LinksComponent.
@@ -9,7 +9,7 @@ import {LangSwitcherService} from "../shared/lang-switcher/lang-switcher.service
   moduleId: module.id,
   selector: 'ds-links',
   templateUrl: 'links.component.html',
-  styleUrls: ['links.component.css'],
+  styleUrls: ['links.component.css']
 })
 export class LinksComponent implements OnInit {
 
@@ -23,7 +23,8 @@ export class LinksComponent implements OnInit {
    *
    * @param {SocialLinksService} linksService - The injected SocialLinksService.
    */
-  constructor(public linksService: LinksService) {}
+  constructor(public linksService: LinksService) {
+  }
 
   /**
    * Get the names OnInit

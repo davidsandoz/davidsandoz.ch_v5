@@ -17,7 +17,7 @@ export class TranslationProviders {
     // Set the directory to the translation files
     let file: string = `../assets/locale/messages.${locale}.xlf`;
 
-    if(!locale || locale === 'en-US') return Promise.resolve(noProviders);
+    if (!locale || locale === 'en-US') return Promise.resolve(noProviders);
 
     return new Promise(function (resolve, reject) {
       let xhr = new XMLHttpRequest;

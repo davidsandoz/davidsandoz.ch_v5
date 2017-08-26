@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
-import {LangSwitcherService} from "../lang-switcher/lang-switcher.service";
-import {NavigationStart, Router} from "@angular/router";
+import { Component, OnInit } from '@angular/core';
+import { LangSwitcherService } from '../lang-switcher/lang-switcher.service';
+import { NavigationStart, Router } from '@angular/router';
 
 /**
  * This class represents the toolbar component.
@@ -15,7 +15,7 @@ export class ToolbarComponent implements OnInit {
   public locale: string;
   public currentPageSlug: string;
 
-  public constructor (private router: Router) {
+  public constructor(private router: Router) {
     this.locale = LangSwitcherService.getLocale();
   }
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {LangSwitcherService} from "../lang-switcher/lang-switcher.service";
+import { LangSwitcherService } from '../lang-switcher/lang-switcher.service';
 
 /**
  * This class represents the navigation bar component.
@@ -8,6 +8,7 @@ import {LangSwitcherService} from "../lang-switcher/lang-switcher.service";
   moduleId: module.id,
   selector: 'ds-footer',
   templateUrl: 'footer.component.html',
-  styleUrls: ['footer.component.css'],
+  styleUrls: ['footer.component.css']
 })
-export class FooterComponent { }
+export class FooterComponent {
+}

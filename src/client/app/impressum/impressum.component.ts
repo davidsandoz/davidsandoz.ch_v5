@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import {LangSwitcherService} from "../shared/lang-switcher/lang-switcher.service";
+import { Component, OnInit } from '@angular/core';
+import { LangSwitcherService } from '../shared/lang-switcher/lang-switcher.service';
 
 /**
  * This class represents the lazy loaded ImpressumComponent.

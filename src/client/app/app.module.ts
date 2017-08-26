@@ -10,7 +10,7 @@ import { AboutMeModule } from './about-me/about-me.module';
 import { HomeModule } from './home/home.module';
 import { LinksModule } from './links/links.module';
 import { ContactModule } from './contact/contact.module';
-import { ImpressumModule } from "./impressum/impressum.module";
+import { ImpressumModule } from './impressum/impressum.module';
 import { SharedModule } from './shared/shared.module';
 
 
@@ -34,4 +34,5 @@ import { SharedModule } from './shared/shared.module';
   bootstrap: [AppComponent]
 
 })
-export class AppModule { }
+export class AppModule {
+}

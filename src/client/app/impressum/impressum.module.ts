@@ -9,4 +9,5 @@ import { MarkdownModule } from 'angular2-markdown';
   declarations: [ImpressumComponent],
   exports: [ImpressumComponent]
 })
-export class ImpressumModule{ }
+export class ImpressumModule {
+}

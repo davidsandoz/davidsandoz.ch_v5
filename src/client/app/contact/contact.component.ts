@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 /**
  * This class represents the lazy loaded ContactComponent.
@@ -8,7 +8,7 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
   selector: 'ds-contact',
   encapsulation: ViewEncapsulation.None,
   templateUrl: 'contact.component.html',
-  styleUrls: ['contact.component.css'],
+  styleUrls: ['contact.component.css']
 })
 export class ContactComponent implements OnInit {
   public emailAddress: string;

@@ -1,7 +1,7 @@
-import {join} from 'path';
+import { join } from 'path';
 
-import {SeedConfig} from './seed.config';
-import {ExtendPackages} from './seed.config.interfaces';
+import { SeedConfig } from './seed.config';
+import { ExtendPackages } from './seed.config.interfaces';
 
 /**
  * This class extends the basic seed configuration, allowing for project specific overrides. A few examples can be found
@@ -21,7 +21,7 @@ export class ProjectConfig extends SeedConfig {
 
     // Add `NPM` third-party libraries to be injected/bundled.
     this.NPM_DEPENDENCIES = [
-      ...this.NPM_DEPENDENCIES,
+      ...this.NPM_DEPENDENCIES
       // {src: 'jquery/dist/jquery.min.js', inject: 'libs'},
       // {src: 'lodash/lodash.min.js', inject: 'libs'},
     ];
@@ -33,12 +33,12 @@ export class ProjectConfig extends SeedConfig {
     ];
 
     this.ROLLUP_INCLUDE_DIR = [
-      ...this.ROLLUP_INCLUDE_DIR,
+      ...this.ROLLUP_INCLUDE_DIR
       //'node_modules/moment/**'
     ];
 
     this.ROLLUP_NAMED_EXPORTS = [
-      ...this.ROLLUP_NAMED_EXPORTS,
+      ...this.ROLLUP_NAMED_EXPORTS
       //{'node_modules/immutable/dist/immutable.js': [ 'Map' ]},
     ];
 
@@ -54,7 +54,7 @@ export class ProjectConfig extends SeedConfig {
       {
         name: 'angular2-markdown/*',
         path: 'node_modules/angular2-markdown/bundles/angular2-markdown.umd.min.js'
-      },
+      }
 
       // tslib and @angular/common/http were added because required by ng-inline-svg
       // {
