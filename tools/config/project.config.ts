@@ -54,7 +54,39 @@ export class ProjectConfig extends SeedConfig {
       {
         name: 'angular2-markdown/*',
         path: 'node_modules/angular2-markdown/bundles/angular2-markdown.umd.min.js'
-      }
+      },
+
+      // tslib and @angular/common/http were added because required by ng-inline-svg
+      // {
+      //   name: 'tslib',
+      //   path: 'node_modules/tslib/tslib.js'
+      // },
+      //
+      // {
+      //   name: '@angular/common/http',
+      //   path: 'node_modules/@angular/common/bundles/common-http.umd.js',
+      // },
+      //
+      // {
+      //   name: 'ng-inline-svg',
+      //   path: 'node_modules/ng-inline-svg/lib/index.js'
+      // },
+      //
+      // The imports below help to give access to the files, but it's done correctly so it doesn't work.
+      // {
+      //   name: 'ng-inline-svg',
+      //   path: 'node_modules/ng-inline-svg/lib/inline-svg.directive.js',
+      // },
+      //
+      // {
+      //   name: 'ng-inline-svg',
+      //   path: 'node_modules/ng-inline-svg/lib/inline-svg.module.js',
+      // },
+      //
+      // {
+      //   name: 'ng-inline-svg',
+      //   path: 'node_modules/ng-inline-svg/lib/svg-cache.service.js',
+      // }
     ];
 
     this.addPackagesBundles(additionalPackages);
