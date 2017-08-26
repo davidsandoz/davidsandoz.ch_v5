@@ -14,7 +14,9 @@ import { LangSwitcherService } from './shared/lang-switcher/lang-switcher.servic
 })
 export class AppComponent {
   constructor() {
-    console.log('Environment config', Config);
+    if (Config.ENV !== 'PROD') {
+      console.log('Environment config', Config);
+    }
     window.document.documentElement.lang = LangSwitcherService.getLocale();
   }
 }
