@@ -1,12 +1,12 @@
 export class LangSwitcherService {
 
-  static setLocale(locale: string) {
+  static setLocale(locale: string, currentPageSlug = '') {
     try {
       localStorage.setItem('locale', locale);
     } catch (e) {
       // Handle any errors (e.g. "SecurityError: The operation is insecure." if client blocks cookies.)
     }
-    window.location.href = '/';
+    window.location.href = '/' + currentPageSlug;
   }
 
   static getLocale() {

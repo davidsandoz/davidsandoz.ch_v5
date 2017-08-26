@@ -6,18 +6,8 @@ import {LangSwitcherService} from "../lang-switcher/lang-switcher.service";
  */
 @Component({
   moduleId: module.id,
-  selector: 'sd-navbar',
+  selector: 'ds-navbar',
   templateUrl: 'navbar.component.html',
   styleUrls: ['navbar.component.css'],
 })
-export class NavbarComponent {
-  public locale: string;
-
-  public constructor () {
-    this.locale = LangSwitcherService.getLocale();
-  }
-
-  public selectLocale = (locale: string) => {
-    LangSwitcherService.setLocale(locale);
-  }
-}
+export class NavbarComponent { }
