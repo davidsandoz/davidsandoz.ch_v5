@@ -15,6 +15,5 @@ export class AboutMeComponent implements OnInit {
 
   ngOnInit() {
     this.currentLanguage = LangSwitcherService.getLang();
-    console.log(this.currentLanguage);
   }
 }
