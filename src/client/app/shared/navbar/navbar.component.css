@@ -1,22 +1,37 @@
 :host {
-  border: 0 solid #e1e1e1;
-  border-bottom-width: 1px;
+  background-color: var(--orange);
   display: block;
-  height: 48px;
-  padding: 0 16px;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  max-width: 800px;
+  width: 90vw;
+  margin: auto;
 }
 
 nav a {
-  color: #8f8f8f;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 48px;
-  margin-right: 20px;
+  height: 30px;
+  color: black;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 16px;
   text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
+  transition: color .25s, background-color .25s;
 }
 
-nav a.router-link-active {
-  color: #106cc8;
+nav a.router-link-active,
+nav a:hover {
+  color: white;
+  background-color: black;
+}
+
+@media (max-width: 700px) {
+  nav {
+    width: 100%;
+  }
 }
