@@ -19,9 +19,9 @@ export class ToolbarComponent implements OnInit {
     this.locale = LangSwitcherService.getLocale();
   }
 
-  public selectLocale = (locale: string) => {
+  public selectLocale(locale: string) {
     LangSwitcherService.setLocale(locale, this.currentPageSlug);
-  };
+  }
 
   ngOnInit() {
     this.router.events.subscribe(event => {
