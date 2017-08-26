@@ -28,7 +28,7 @@
       "fr": "Mon école",
       "en": "My university"
     },
-    "name": "Ecole Polytechnique Fédérale de Lausanne",
+    "name": "École Polytechnique Fédérale de Lausanne",
     "url": "http://epfl.ch/"
   },
   {
@@ -110,30 +110,6 @@
     },
     "name": "Solène Buet",
     "url": "http://solenebuet.com"
-  },
-  {
-    "label": {
-      "fr": "",
-      "en": ""
-    },
-    "name": "Christopher Chiche",
-    "url": "http://christopherchiche.com"
-  },
-  {
-    "label": {
-      "fr": "",
-      "en": ""
-    },
-    "name": "Benjamin D'Incau",
-    "url": "http://benjamindincau.com/"
-  },
-  {
-    "label": {
-      "fr": "",
-      "en": ""
-    },
-    "name": "Laurent Ludi",
-    "url": "http://ardeattitude.ch/"
   },
   {
     "label": {
