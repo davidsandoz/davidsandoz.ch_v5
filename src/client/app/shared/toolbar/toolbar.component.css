@@ -30,23 +30,23 @@ h1 {
 
 .ds-cover-image {
   background-size: 1200px;
-  background-image: url('/assets/images/home@2x.jpg');
+  background-image: url('/assets/images/home.jpg');
 }
 
 .ds-cover-image--about-me {
-  background-image: url('/assets/images/about-me@2x.jpg');
+  background-image: url('/assets/images/about-me.jpg');
 }
 
 .ds-cover-image--links {
-  background-image: url('/assets/images/links@2x.jpg');
+  background-image: url('/assets/images/links.jpg');
 }
 
 .ds-cover-image--contact {
-  background-image: url('/assets/images/contact@2x.jpg');
+  background-image: url('/assets/images/contact.jpg');
 }
 
 .ds-cover-image--impressum {
-  background-image: url('/assets/images/impressum@2x.jpg');
+  background-image: url('/assets/images/impressum.jpg');
 }
 
 .ds-side-gradient-cover {
@@ -56,7 +56,7 @@ h1 {
 }
 
 .ds-name-cover {
-  background-image: url('/assets/images/name-cover@2x.png');
+  background-image: url('/assets/images/name-cover.png');
   background-size: 3000px;
 }
 
@@ -71,6 +71,35 @@ h1 {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+  .ds-cover-image {
+    background-image: url('/assets/images/home@2x.jpg');
+  }
+
+  .ds-cover-image--about-me {
+    background-image: url('/assets/images/about-me@2x.jpg');
+  }
+
+  .ds-cover-image--links {
+    background-image: url('/assets/images/links@2x.jpg');
+  }
+
+  .ds-cover-image--contact {
+    background-image: url('/assets/images/contact@2x.jpg');
+  }
+
+  .ds-cover-image--impressum {
+    background-image: url('/assets/images/impressum@2x.jpg');
+  }
+
+  .ds-name-cover {
+    background-image: url('/assets/images/name-cover@2x.png');
+  }
 }
 
 @media (max-width: 1200px) {
