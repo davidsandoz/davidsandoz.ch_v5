@@ -1,0 +1,16 @@
+.ds-c-links__label,
+.ds-c-links__link {
+  display: inline-block;
+  margin-bottom: 0.6em;
+  vertical-align: top;
+}
+
+.ds-c-links__label {
+  width: 40%;
+  text-align: right;
+}
+
+.ds-c-links__link {
+  padding-left: 1em;
+  width: 59%;
+}
