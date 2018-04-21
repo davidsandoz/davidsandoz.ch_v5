@@ -6,4 +6,4 @@ Je suis beaucoup impliqué dans le [tchoukball](https://fr.wikipedia.org/wiki/Tc
 
 **Photographe amateur**, je m'essaie particulièrement aux photos de sport, essentiellement de tchoukball. Vous trouverez mes photos sur [mon compte Flickr](https://flickr.com/siedler), mais aussi sur [celui de Swiss Tchoukball](https://flickr.com/swisstchoukball). Pour une sélection de mes meilleurs clichés, rendez-vous sur [mon compte 500px](https://500px.com/davidsandoz). Je poste aussi de temps à autre sur [Instagram](https://instagram.com/davidsandoz) où je m'impose de partager des photos prises uniquement avec mon iPhone.
 
-*Dernière mise à jour le 5 aoüt 2017*
+*Dernière mise à jour le 5 août 2017*
