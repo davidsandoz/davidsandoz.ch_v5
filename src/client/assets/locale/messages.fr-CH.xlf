@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="home-intro" datatype="html">
         <target state="new">
-          Ingénieur software à <x id="START_LINK" ctype="x-a"/>Nothing Interactive<x id="CLOSE_LINK" ctype="x-a"/><x id="LINE_BREAK" ctype="lb"/>
+          Ingénieur software à <x id="START_LINK" ctype="x-a"/>Nothing<x id="CLOSE_LINK" ctype="x-a"/><x id="LINE_BREAK" ctype="lb"/>
           Membre du Comité exécutif de <x id="START_LINK_1" ctype="x-a"/>Swiss Tchoukball<x id="CLOSE_LINK" ctype="x-a"/><x id="LINE_BREAK" ctype="lb"/>
           Alumnus <x id="START_LINK_2" ctype="x-a"/>EPFL<x id="CLOSE_LINK" ctype="x-a"/> (IN &apos;16)<x id="LINE_BREAK" ctype="lb"/>
           Photographe amateur
